@@ -23,7 +23,7 @@ $list_names = array(
 	),
 );
 
-$sp = new Thybag\SharePointAPI('lukas.jarosch@gokreaktiv.de', '!Und3rlin3!', $wsdl_files['QM'], 'SPONLINE');
+$sp = new Thybag\SharePointAPI('USERNAME', 'PASSWORD', $wsdl_files['QM'], 'SPONLINE');
 
 // Example: Read all root documents of QM
 $documents = $sp->read($list_names['QM']['Dokumente']);
