@@ -1,2 +1,4 @@
-sharepoint_2013_list_editor
-===========================
+SharePoint 2013 List viewer and editor
+======================================
+
+Created by Lukas Jarosch
